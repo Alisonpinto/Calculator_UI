@@ -82,3 +82,22 @@ span{
     line-height: 1.5;
     word-spacing:2px;
 }
+
+@media only screen and (max-width: 768px) {
+    .calculator {
+        width: 100%; 
+        padding: 10px;
+    }
+
+    input[type="text"] {
+        height: 60px; 
+        font-size: 24px; 
+    }
+
+    input[type="button"] {
+        width: 50px; 
+        height: 50px; 
+        font-size: 18px; 
+        margin: 5px; 
+    }
+}
